@@ -2,10 +2,10 @@ const {client} = require('../holland');
 const config = require('../config.json');	
 
 client.on("message", async message => {	
-    let admin = [209894730237083649]	
+    let admin = [761078103056318464]	
     if(message.author.bot) return;	
     if(message.channel.type === "dm"){	
-        client.users.get("209894730237083649").send(`>>> New Message!\nUser: ${message.author}\nMessage: ${message.content}`)	
+        client.users.get("761078103056318464").send(`>>> New Message!\nUser: ${message.author}\nMessage: ${message.content}`)	
     }	
     let prefix = config.prefix;	
     let args = message.content.slice(prefix.length).trim().split(' ');	

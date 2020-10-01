@@ -1,0 +1,35 @@
+{
+  "name": "holland",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "common-tags": "^1.8.0",
+    "discord-message-handler": "^2.1.1",
+    "discord.js": "^11.6.4",
+    "events": "^3.0.0",
+    "filter": "^0.1.1",
+    "fs": "0.0.1-security",
+    "helper": "0.0.13",
+    "listener": "^1.0.1",
+    "minecraft-data": "^2.41.0",
+    "minecraft-protocol": "^1.10.0",
+    "minecraft-server-util": "^1.0.2",
+    "minecraft-text-js": "^1.1.3",
+    "moment": "^2.24.0",
+    "ms": "^2.1.2",
+    "mysql": "^2.17.1",
+    "node-fetch": "^2.6.1",
+    "ordinal": "^1.0.3",
+    "request": "^2.88.0",
+    "rss-parser": "^3.8.0",
+    "sequential": "0.0.5",
+    "storage": "^0.2.0"
+  }
+}

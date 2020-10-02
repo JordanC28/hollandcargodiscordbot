@@ -3,8 +3,8 @@ const {client} = require('../holland')
 client.on("guildMemberAdd", function(member){
     client.channels.get("758546977671086080").send({embed:{
         color: 3066993,
-        title: `**Bienvenido al discord de Holland Cargo**`,
-        description: `Bienvenido ${member}, por favor pasala bien y diviérte.`,
+        title: `**Bienvenido al Discord de Holland Cargo**`,
+        description: `Bienvenido ${member}.`,
         thumbnail: {
             url: member.user.avatarURL || "https://media.discordapp.net/attachments/758548412244951062/761133578758651914/H2_2.png?width=679&height=679"
         },

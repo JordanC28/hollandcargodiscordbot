@@ -2,7 +2,7 @@ const {client} = require('../holland')
 
 client.on("guildMemberAdd", function(member){
     client.channels.get("758546977671086080").send({embed:{
-        color: '#084d6e',
+        color: 3066993,
         title: `**Bienvenido al Discord de Holland Cargo**`,
         description: `Bienvenido ${member}.`,
         thumbnail: {

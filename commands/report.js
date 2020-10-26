@@ -12,7 +12,7 @@ module.exports.run = async (bot, message, args) => {
     if (!reports) return message.reply(`crea un canal llamado ${config.reportsChannel} para loguear los reportes!`);
 
     let embed = new discord.RichEmbed()
-        .setColor('#ffff00')
+        .setColor('#084d6e')
         .setThumbnail(target.user.avatarURL)
         .addField('Miembro reportado: ', `${target.user.username} with an ID: ${target.user.id}`)
         .addField('Reportado por: ', `${message.author.username} with an ID: ${message.author.id}`)

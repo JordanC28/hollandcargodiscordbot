@@ -5,7 +5,7 @@ client.on('messageReactionAdd', async (reaction, user) => {
 
 
 // AMONGUS
-    if (reaction.message.id == "761126191377678377") {
+    if (reaction.message.id == "770423845063622677") {
         /* Template
             if (reaction.emoji.id == "EMOJI ID"){
                 reaction.message.guild.members.get(user.id).addRole("ROLE ID", "ReactionRole -> ROLE NAME");

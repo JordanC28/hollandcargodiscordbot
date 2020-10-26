@@ -8,19 +8,19 @@ module.exports.run = async (client, message, args) => {
       message.reply("No puedes usar este comando debido a que solo  <@758536290156937248> puede hacer publicidad en el server.").then(m => m.delete(10000))
   }
     const embed = new Discord.RichEmbed()
-      .setTitle("World of Haulers")
+      .setTitle("Holland Cargo")
       .setColor('PURPLE')
-      .setDescription("If you are looking for an application to register your loads of ETS2 and ATS here we recommend this new project. You can visit their [Website](https://www.worldofhaulers.com/) and [Discord](https://discord.gg/4YTvG5V), go and give them a lot of love remember to follow the rules.")
+      .setDescription("Se fundó en septiembre de 2020, nuestro objetivo es construir una comunidad como ninguna otra donde podamos ofrecer a nuestros conductores la mejor experiencia en el transporte virtual y principalmente generar un buen ambiente de calidad. En Holland no tenemos reglas de actividad estrictas, permitimos que nuestros miembros puedan asistir a los convoyes que se ajusten a sus horarios. De esta manera, hay menos presión sobre nuestros conductores y hace que HLLC sea un VTC mucho mas relajada y amigable. Lamentablemente no contamos con una historia y una trayectoria de tres o cuatro años, pero nuestras bases se respaldan en los valores. Amistad, confianza, respeto y amabilidad.")
       .setFooter("Holland Cargo advertising", client.user.avatarURL)
-      .setThumbnail('https://cdn.discordapp.com/attachments/655881963327979562/666715251819151370/logo-bot.jpg')
+      .setThumbnail('https://cdn.discordapp.com/attachments/758548412244951062/761133578758651914/H2_2.png')
       .setTimestamp()
-      .setURL("https://discord.gg/4YTvG5V")
+      .setURL("https://discord.gg/4VbkeME")
       
       message.channel.send ({embed});
         
     }
       module.exports.help = {
-        name: "woh",
+        name: "HLLC",
         category: "advertising",
     
     }

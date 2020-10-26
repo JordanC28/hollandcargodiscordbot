@@ -14,8 +14,8 @@ module.exports.run = async (client, message, args) => {
        const member = message.guild.member(user);
 
        const embed = new Discord.RichEmbed()
-          .setColor('BLUE')
-          .setThumbnail(user.avatarURL || "https://cdn.discordapp.com/attachments/656368085003141157/664586576998957094/JoseM.jpg")
+          .setColor('#084d6e')
+          .setThumbnail(user.avatarURL || "https://cdn.discordapp.com/attachments/758548412244951062/761133578758651914/H2_2.png")
           .setTitle(`${user.username}#${user.discriminator}`)
           .addField('ID:', `${user.id}`, true)
           .addField('Apodo:', `${user.username !== null ? `${user.username}` : 'None'}`, true)

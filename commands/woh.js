@@ -9,7 +9,7 @@ module.exports.run = async (client, message, args) => {
   }
     const embed = new Discord.RichEmbed()
       .setTitle("Holland Cargo")
-      .setColor('PURPLE')
+      .setColor('#084d6e')
       .setDescription("Se fundó en septiembre de 2020, nuestro objetivo es construir una comunidad como ninguna otra donde podamos ofrecer a nuestros conductores la mejor experiencia en el transporte virtual y principalmente generar un buen ambiente de calidad. En Holland no tenemos reglas de actividad estrictas, permitimos que nuestros miembros puedan asistir a los convoyes que se ajusten a sus horarios. De esta manera, hay menos presión sobre nuestros conductores y hace que HLLC sea un VTC mucho mas relajada y amigable. Lamentablemente no contamos con una historia y una trayectoria de tres o cuatro años, pero nuestras bases se respaldan en los valores. Amistad, confianza, respeto y amabilidad.")
       .setFooter("Holland Cargo advertising", client.user.avatarURL)
       .setThumbnail('https://cdn.discordapp.com/attachments/758548412244951062/761133578758651914/H2_2.png')

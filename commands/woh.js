@@ -8,9 +8,21 @@ module.exports.run = async (client, message, args) => {
       message.reply("No puedes usar este comando debido a que solo  <@758536290156937248> puede hacer publicidad en el server.").then(m => m.delete(10000))
   }
     const embed = new Discord.RichEmbed()
-      .setTitle("Holland Cargo")
+      .setTitle("Latinos Gaming")
       .setColor('#084d6e')
-      .setDescription("Se fundó en septiembre de 2020, nuestro objetivo es construir una comunidad como ninguna otra donde podamos ofrecer a nuestros conductores la mejor experiencia en el transporte virtual y principalmente generar un buen ambiente de calidad. En Holland no tenemos reglas de actividad estrictas, permitimos que nuestros miembros puedan asistir a los convoyes que se ajusten a sus horarios. De esta manera, hay menos presión sobre nuestros conductores y hace que HLLC sea un VTC mucho mas relajada y amigable. Lamentablemente no contamos con una historia y una trayectoria de tres o cuatro años, pero nuestras bases se respaldan en los valores. Amistad, confianza, respeto y amabilidad.")
+      .setDescription("En LATINOS GAMING, queremos llevarte a vivir los juegos en primera persona, y no solo juegos si no lo geek y entretenimiento.
+
+      Nuestra Misión
+      
+      1- Ser la comunidad una de las mejores de Latinoamérica.
+      2- Llevar calidad de contenido a todo al publico geek y gamer.
+      3- Generar espacios donde los jugadores serios y casuales puedan reunirse y disfrutar de los juegos.
+      
+      Nuestra Visión
+      
+      1- Dar una mirada objetiva hacia este ambiente.
+      2- Disfrutar al máximo la entretención y las comodidades de nuestro servidor.
+      3- Actuando de manera fresca, espontanea y cercana a nuestra comunidad.")
       .setFooter("Holland Cargo advertising", client.user.avatarURL)
       .setThumbnail('https://cdn.discordapp.com/attachments/758548412244951062/761133578758651914/H2_2.png')
       .setTimestamp()

@@ -1,7 +1,7 @@
 const {client} = require('../holland');
 
 client.on("guildMemberRemove", function(member){
-    var channel = client.channels.get("758556800445448193").send({embed:{ //channel ID
+    var channel = client.channels.get("834590430242013214").send({embed:{ //channel ID
         color: 15158332,
         author: {
             name: member.user.tag,

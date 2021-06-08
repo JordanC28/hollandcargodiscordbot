@@ -5,7 +5,7 @@ exports.run = async (client, message, args) => {
     message.delete()
     if(message.author.id === "712395861165998124"){
         let embed = new RichEmbed()
-            .setColor('#ffff00')
+            .setColor('#ff1616')
             .setTitle("Reglas de la comunidad y servidor")
             .setDescription("Acá podrás solicitar los roles de los siguientes juegos: **AmongUS**, **GTA-V RolePlay** y **CSGO** para poder usar los canales junto a tus amigos.")
             .setFooter("última actualización")

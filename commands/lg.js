@@ -2,19 +2,19 @@ const Discord = require('discord.js');
 
 module.exports.run = async (client, message, args) => {
   message.delete().catch() 
-  if (message.member.roles.has("758536290156937248")){
+  if (message.member.roles.has("841911350371942401")){
       
   } else {
-      message.reply("No puedes usar este comando debido a que solo  <@758536290156937248> puede hacer publicidad en el server.").then(m => m.delete(10000))
+      message.reply("No puedes usar este comando debido a que solo  <@841911350371942401> puede hacer publicidad en el server.").then(m => m.delete(10000))
   }
     const embed = new Discord.RichEmbed()
-      .setTitle("Holland Cargo")
-      .setColor('#084d6e')
-      .setDescription("Hola Se fundó en septiembre de 2020, nuestro objetivo es construir una comunidad como ninguna otra donde podamos ofrecer a nuestros conductores la mejor experiencia en el transporte virtual y principalmente generar un buen ambiente de calidad. En Holland no tenemos reglas de actividad estrictas, permitimos que nuestros miembros puedan asistir a los convoyes que se ajusten a sus horarios. De esta manera, hay menos presión sobre nuestros conductores y hace que HLLC sea un VTC mucho mas relajada y amigable. Lamentablemente no contamos con una historia y una trayectoria de tres o cuatro años, pero nuestras bases se respaldan en los valores. Amistad, confianza, respeto y amabilidad.")
-      .setFooter("Holland Cargo advertising", client.user.avatarURL)
-      .setThumbnail('https://cdn.discordapp.com/attachments/758548412244951062/761133578758651914/H2_2.png')
+      .setTitle("Latinos Gaming")
+      .setColor('#0ff1616')
+      .setDescription("Latinos Gaming se fundo juntos con cuatros personas, con la idea de crear una comunidad flexible, donde todas las personas tienen la oportunidad compartir momentos con miembros de otras nacionalidades. Ahora buscamos crear una comunidad segura para todos sin importar las edades, lo importante es que se diviertan y se sienta seguros del ambiente. Costantemente nos encontramos mejorando para toda la comunidad, hacemos mejorar escuchando sus sugerencias, esos detalles los tomamos en cuenta para mejorar y a si cualquier persona se adapta de una manera sencilla. Esta comunidad esta abierta a todo tipo de gamer, esos que buscan un espacio donde demostrar sus habilidades y destrezas.")
+      .setFooter("Latinos Gaming", client.user.avatarURL)
+      .setThumbnail('https://cdn.discordapp.com/attachments/762121963950702602/851154822680936483/image0.gif')
       .setTimestamp()
-      .setURL("https://discord.gg/4VbkeME")
+      .setURL("https://discord.io/latinosgaming")
       
       message.channel.send ({embed});
         

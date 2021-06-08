@@ -9,7 +9,7 @@ module.exports.run = async (bot, message, args) => {
     let bicon = bot.user.displayAvatarURL;
     let botembed = new Discord.RichEmbed()
     .setDescription("Informacion del bot")
-    .setColor("#15f153")
+    .setColor("#ff1616")
     .setThumbnail(bicon)
     .addField("Nombre del Bot:", bot.user.username)
     .addField("Dueño:", `${message.guild.owner.user.username}#${message.guild.owner.user.discriminator}`, true)

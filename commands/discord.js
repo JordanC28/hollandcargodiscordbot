@@ -4,13 +4,13 @@ module.exports.run = async (client, message, args) => {
   message.delete().catch() 
 
     const embed = new Discord.RichEmbed()
-      .setTitle("Invitación a Holland Cargo")
+      .setTitle("Invitación a Latinos Gaming")
       .setColor('#084d6e')
-      .setDescription("Acá te dejamos la invitación a nuestra **Comunidad de Discord** [https://discord.gg/4VbkeME](https://discord.gg/4VbkeME) para que puedas invitar a tus amigos a nuestro servidor.")
-      .setFooter("Holland Cargo", client.user.avatarURL)
-      .setThumbnail('https://media.discordapp.net/attachments/758548412244951062/761076086385541130/H2_1_copia.png?width=943&height=475')
+      .setDescription("Acá te dejamos la invitación a nuestra **Comunidad de Discord** [https://discord.io/latinosgaming](https://discord.io/latinosgaming) para que puedas invitar a tus amigos a nuestro servidor.")
+      .setFooter("Latinos Gaming", client.user.avatarURL)
+      .setThumbnail('https://cdn.discordapp.com/attachments/762121963950702602/851154822680936483/image0.gif')
       .setTimestamp()
-      .setURL("https://discord.gg/4VbkeME")
+      .setURL("https://discord.io/latinosgaming")
       
       message.channel.send ({embed});
         

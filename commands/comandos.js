@@ -7,9 +7,9 @@ module.exports.run = async (client, message, args) => {
   //canal donde desea enviar a usar los comandos 
      
         message.channel.send('**'+message.author.username+'**, Hola acá te dejamos unos comandos que puedes usar en nuestro servidor, si eres parte del staff usa el comando **!admin**\n```\n'+
-                        '-> '+prefix+'discord :: Muestra la invitación al servidor.\n'+
+                        '-> '+prefix+'discord    :: Muestra la invitación al servidor.\n'+
                         '-> '+prefix+'botinfo    :: Muestra información del bot.\n'+
-                        '-> '+prefix+'report    :: Utilizalo para reportar un usuario, mencionalo y pon el motivo.\n'+
+                        '-> '+prefix+'report     :: Utilizalo para reportar un usuario, mencionalo y pon el motivo.\n'+
                         '-> '+prefix+'whois      :: Muestra información sobre un usuario mencionado.\n'+
                         '-> '+prefix+'server     :: Muestra información del servidor.\n```\n\n');
 }

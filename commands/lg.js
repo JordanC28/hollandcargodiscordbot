@@ -20,7 +20,7 @@ module.exports.run = async (client, message, args) => {
         
     }
       module.exports.help = {
-        name: "woh",
+        name: "lg",
         category: "advertising",
     
     }

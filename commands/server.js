@@ -46,5 +46,5 @@ module.exports.run = async (client, message, args) => {
 
 module.exports.help = {
     name: "server",
-    description: "Muestra información del servidor!"
+    description: "Latinos Gaming server"
 }

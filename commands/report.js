@@ -21,7 +21,7 @@ module.exports.run = async (bot, message, args) => {
         .addField('Razón del reporte: ', reason)
         .setFooter('Información de la persona reportada', target.user.displayAvatarURL);
 
-    message.channel.send(`${target} fue reportado por  el moderador ${message.author} por ${reason}`);
+    message.channel.send(`${target} fue reportado por  el miembro ${message.author} por ${reason}`);
     reports.send(embed);
 
 };

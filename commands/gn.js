@@ -4,7 +4,7 @@ const prefix = config.prefix;
 
 module.exports.run = async (client, message, args) => {
     message.delete().catch() 
-    if (message.channel.id == "742499773826859028" || message.member.roles.has("742510815965479022")){
+    if (message.member.roles.has("758538816885358624")){
     }else{
         return message.reply("acceso denegado, comando solo disponible para <#742510815965479022>").then(m => m.delete(10000));
     }

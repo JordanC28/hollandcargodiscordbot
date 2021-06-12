@@ -4,7 +4,7 @@ const prefix = config.prefix
 
 module.exports.run = async (client, message, args) => {
   message.delete().catch()
-  if (message.channel.id == "842031637633957908"){
+  if (message.channel.id == "839622902768467978"){
       
   } else {
       return message.reply("Lo lamento no puedes usar el comando debido a que no eres parte del **STAFF** o estás en el canal equivocado").then(m => m.delete(5000))

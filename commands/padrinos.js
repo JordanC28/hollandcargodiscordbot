@@ -4,7 +4,7 @@ module.exports.run = async (client, message, args) => {
   message.delete().catch() 
 
     const embed = new Discord.RichEmbed()
-      .setTitle("Invitación a Latinos Gaming")
+      .setTitle("THE GODFATHER")
       .setColor('#084d6e')
       .setDescription("Acá te dejamos la invitación a nuestra **Comunidad de Discord** [https://discord.io/latinosgaming](https://discord.io/latinosgaming) para que puedas invitar a tus amigos a nuestro servidor.")
       .setFooter("Latinos Gaming", client.user.avatarURL)

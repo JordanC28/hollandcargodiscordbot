@@ -5,7 +5,7 @@ const prefix = config.prefix
 
 client.on("ready", async () => {
         console.log("Estoy listo!");
-        client.user.setActivity(`discord.io/LatinosGaming`, { type: 'Watching'})
+        client.user.setActivity(`latinosgaming.com`, { type: 'Watching'})
         console.log(prefix);
         client.channels.get("761078103056318464").send(`El bot se a cargado para ${client.users.size} miembros, sin errores ni problemas.`);
         

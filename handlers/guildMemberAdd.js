@@ -48,3 +48,9 @@ client.on("guildMemberAdd", function(member){
         }
     }})
 })
+
+client.on("guildMemberAdd", (member) => {
+    let canal = client.channels.cache.get('839622902768467978'); 
+    canal.send(`Hola ${member.user}, bienvenido al servidor ${member.guild.name} pasala bien!.`);
+   
+});

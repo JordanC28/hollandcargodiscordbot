@@ -3,6 +3,7 @@ const config = require('../config.json');
 const prefix = config.prefix;
 
 module.exports.run = async (client, message, args) => {
+    message.delete().catch()
     if (message.member.roles.has("758538816885358624")){
     }else{
         return message.reply("acceso denegado, comando solo disponible para <#742510815965479022>").then(m => m.delete(10000));

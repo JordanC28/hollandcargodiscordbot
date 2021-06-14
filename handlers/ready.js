@@ -3,18 +3,19 @@ const {message} = require('../holland')
 const config = require("../config.json");
 const prefix = config.prefix
 
-client.on("ready", () => {
-        console.log(`Estoy listo!, 
-                 conectado en ${client.guilds.cache.size} servidores y  ${client.users.cache.size} usuarios.`);
-     
-        client.user.setPresence( {
-            activity: {
-                name: `-help | Estoy en ${client.guilds.cache.size} servidores, genial no?.`,
-                type: "WATCHING"
-            },
-            status: "online"
-         });
-     
-     });
-     
+client.on("ready", async () => {
+        console.log("Estoy listo!");
+        client.user.setActivity(`latinosgaming.com`, { type: 'Watching'})
+        console.log(prefix);
+        client.channels.get("842031637633957908").send(`El bot se a cargado para ${client.users.size} miembros, sin errores ni problemas.`);
+        
+        //acá irán todos los mensajes de reacción en este y sincronización
+        /* Reaction */
 
+        //Mensaje de reglas
+       
+        client.channels.get("758542185007415387").fetchMessage("761085949014704129");
+
+
+
+})

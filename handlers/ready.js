@@ -7,7 +7,7 @@ client.on("ready", async () => {
         console.log("Estoy listo!");
         client.user.setActivity(`latinosgaming.com`, { type: 'Watching'})
         console.log(prefix);
-        client.channels.get("761078103056318464").send(`El bot se a cargado para ${client.users.size} miembros, sin errores ni problemas.`);
+        client.channels.get("842031637633957908").send(`El bot se a cargado para ${client.users.size} miembros, sin errores ni problemas.`);
         
         //acá irán todos los mensajes de reacción en este y sincronización
         /* Reaction */

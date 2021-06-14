@@ -16,9 +16,3 @@ client.on("guildMemberRemove", function(member){
         }
     }})
 })
-
-client.on("guildMemberRemove", (member) => {
-    let canal = client.channels.cache.get("839622902768467978"); 
-    canal.send(`${member.user}, a dejado el servidor.`);
-   
-});

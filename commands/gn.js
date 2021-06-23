@@ -26,7 +26,7 @@ module.exports.run = async (client, message, args) => {
         "https://media.giphy.com/media/bHeKwC5anwOw8/giphy.gif"
     ];
     var response = options[Math.floor(Math.random()*options.length)];
-    message.channel.send("Descansa " + message.member + ", duerme bien! " + response).then().catch(console.error);
+    message.channel.send("Descansa " + message.member + ", duerme bien! " +).then().catch(console.error);
 }
 module.exports.help = {
     name: "gn"

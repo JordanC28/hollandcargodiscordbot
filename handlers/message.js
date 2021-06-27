@@ -1,5 +1,4 @@
 const {client} = require('../holland');	
-const config = require('../config.json');	
 
 client.on("message", async message => {	
     let admin = [712395861165998124]	
